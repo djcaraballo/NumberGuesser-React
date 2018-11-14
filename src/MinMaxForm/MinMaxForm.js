@@ -26,7 +26,7 @@ class MinMaxForm extends Component {
         })
       }
 
-    if (max < min) {
+    if (max < min && min === 0) {
       this.setState({
         maxLessThanMin: true
       })
@@ -76,6 +76,7 @@ class MinMaxForm extends Component {
           Maximum guess should be greater than the minimum guess!
         </h5>
         <button>Update</button>
+        <p>The current guessing range is <span>{min}</span> to <span>{max}</span></p>
       </form>
     )
   }

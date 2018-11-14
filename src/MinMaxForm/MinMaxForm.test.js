@@ -1,6 +1,7 @@
 import React from 'react'
-import MinMaxForm from './MinMaxForm'
 import { shallow } from 'enzyme'
+import Adapter from 'enzyme-adapter-react-16';
+import MinMaxForm from './MinMaxForm'
 
 describe('MinMaxForm Component', () => {
   let wrapper;
