@@ -1,0 +1,15 @@
+.min-greater-error-active {
+
+}
+
+.min-greater-error-inactive {
+  display: none;
+}
+
+.max-lesser-error-active {
+
+}
+
+.max-lesser-error-inactive {
+  display: none;
+}
